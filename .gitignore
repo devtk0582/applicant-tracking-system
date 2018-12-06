@@ -1,0 +1,25 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ApplicantTrackingSystem/v15
+/src/admin/bin/Debug/netcoreapp2.1
+/src/admin/obj
+/src/application/bin/Debug/netstandard2.0
+/src/application/obj
+/src/domain/bin/Debug/netstandard2.0
+/src/domain/obj
+/src/extensions/bin/Debug/netstandard2.0
+/src/extensions/obj
+/src/kafka/bin/Debug/netstandard2.0
+/src/kafka/obj
+/src/messaging/bin/Debug/netstandard2.0
+/src/messaging/obj
+/src/mongo/bin/Debug/netstandard2.0
+/src/mongo/obj
+/src/repository/bin/Debug/netstandard2.0
+/src/repository/obj
+/src/security/bin/Debug/netstandard2.0
+/src/security/obj
+/src/vault/bin/Debug/netstandard2.0
+/src/vault/obj
