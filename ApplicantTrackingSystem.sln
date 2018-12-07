@@ -17,23 +17,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0A66EF2D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATS.Admin.UI", "src\admin\ATS.Admin.UI.csproj", "{C30EC9BD-6C46-428C-8512-AB1E9CF51A12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS.Common.Extensions", "src\extensions\ATS.Common.Extensions.csproj", "{976E3F84-88CA-4E84-9A52-833FC083C764}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATS.Common.Extensions", "src\extensions\ATS.Common.Extensions.csproj", "{976E3F84-88CA-4E84-9A52-833FC083C764}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS.Core.Application", "src\application\ATS.Core.Application.csproj", "{30275946-AF03-4E56-9AFA-09DE42FF1004}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATS.Core.Application", "src\application\ATS.Core.Application.csproj", "{30275946-AF03-4E56-9AFA-09DE42FF1004}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS.Core.Domain", "src\domain\ATS.Core.Domain.csproj", "{9BA84223-B70C-4DC8-B856-6E7F99F07A9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATS.Core.Domain", "src\domain\ATS.Core.Domain.csproj", "{9BA84223-B70C-4DC8-B856-6E7F99F07A9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS.Messaging.Abstractions", "src\messaging\ATS.Messaging.Abstractions.csproj", "{15AC58E0-7188-4ACD-AB8E-65F4DDB98649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATS.Messaging.Abstractions", "src\messaging\ATS.Messaging.Abstractions.csproj", "{15AC58E0-7188-4ACD-AB8E-65F4DDB98649}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS.Messaging.Kafka", "src\kafka\ATS.Messaging.Kafka.csproj", "{B2E35595-5267-42F6-A2EB-E4C540C232C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATS.Messaging.Kafka", "src\kafka\ATS.Messaging.Kafka.csproj", "{B2E35595-5267-42F6-A2EB-E4C540C232C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS.Security.Abstractions", "src\security\ATS.Security.Abstractions.csproj", "{EBFA4A01-F31C-43D8-8610-25612B5A4623}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATS.Security.Abstractions", "src\security\ATS.Security.Abstractions.csproj", "{EBFA4A01-F31C-43D8-8610-25612B5A4623}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS.Security.Vault", "src\vault\ATS.Security.Vault.csproj", "{FB1A9079-4346-4A09-8EF3-DA71F20E31E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATS.Security.Vault", "src\vault\ATS.Security.Vault.csproj", "{FB1A9079-4346-4A09-8EF3-DA71F20E31E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS.Data.Abstractions", "src\repository\ATS.Data.Abstractions.csproj", "{D7C2C369-04F4-45F3-B8F4-16D78447C882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATS.Persistence.Abstractions", "src\repository\ATS.Persistence.Abstractions.csproj", "{D7C2C369-04F4-45F3-B8F4-16D78447C882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS.Data.Mongo", "src\mongo\ATS.Data.Mongo.csproj", "{87B98B18-141B-415F-9788-1D8B8EAFF409}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATS.Persistence.Mongo", "src\mongo\ATS.Persistence.Mongo.csproj", "{87B98B18-141B-415F-9788-1D8B8EAFF409}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

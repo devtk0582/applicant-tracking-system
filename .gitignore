@@ -23,3 +23,4 @@
 /src/security/obj
 /src/vault/bin/Debug/netstandard2.0
 /src/vault/obj
+/src/vault/ATS.Security.Vault.csproj.user
