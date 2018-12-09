@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ATS.Persistence.Abstractions.Repositories
 {
@@ -12,5 +13,11 @@ namespace ATS.Persistence.Abstractions.Repositories
         void AddApplicant(Applicant applicant);
         void UpdateApplicant(Applicant applicant);
         void DeleteApplicant(Guid id);
+        void UpsertApplicant(Applicant applicant);
+
+        Task AddApplicantAsync(Applicant applicant);
+        Task UpdateApplicantAsync(Applicant applicant);
+        Task DeleteApplicantAsync(Guid id);
+        Task UpsertApplicantAsync(Applicant applicant);
     }
 }
