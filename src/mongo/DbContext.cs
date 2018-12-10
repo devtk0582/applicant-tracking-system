@@ -1,4 +1,6 @@
 ﻿using ATS.Persistence.Abstractions;
+using ATS.Persistence.Abstractions.Entities;
+using ATS.Persistence.Mongo.Mapings;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
@@ -36,6 +38,21 @@ namespace ATS.Persistence.Mongo
                 x.AutoMap();
                 x.SetIgnoreExtraElements(true);
             });
+        }
+
+        public void RegisterClassMap<T>(Action<BsonClassMap<T>> action)
+        {
+            if (BsonClassMap.IsClassMapRegistered(typeof(T)))
+                return;
+
+            BsonClassMap.RegisterClassMap(action);
+        }
+
+        public void RegisterClassMap()
+        {
+            RegisterClassMap(ApplicantClassMap.Register);
+            RegisterClassMap(ApplicationClassMap.Register);
+            RegisterClassMap(RequisitionClassMap.Register);
         }
     }
 }
