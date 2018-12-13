@@ -9,5 +9,6 @@ namespace ATS.Messaging.Abstractions
         public const string ConfigSection = "Messaging";
         public string Servers { get; set; }
         public string SchemeRegistry { get; set; }
+        public MessageConsumerSettings ConsumerSettings { get; set; }
     }
 }

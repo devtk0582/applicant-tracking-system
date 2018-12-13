@@ -15,8 +15,4 @@
     <ProjectReference Include="..\messaging\ATS.Messaging.Abstractions.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Consumer\" />
-  </ItemGroup>
-
 </Project>
