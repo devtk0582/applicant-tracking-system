@@ -26,3 +26,7 @@
 /src/vault/ATS.Security.Vault.csproj.user
 /.vs/ApplicantTrackingSystem/DesignTimeBuild
 /src/kafka/ATS.Messaging.Kafka.csproj.user
+/.vs/config
+/admin-api/bin/Debug/netcoreapp2.1
+/admin-api/obj
+/admin-api/ATS.Admin.Api.csproj.user

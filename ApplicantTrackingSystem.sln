@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATS.Persistence.Abstraction
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATS.Persistence.Mongo", "src\mongo\ATS.Persistence.Mongo.csproj", "{87B98B18-141B-415F-9788-1D8B8EAFF409}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS.Admin.Api", "admin-api\ATS.Admin.Api.csproj", "{BEC83B10-2767-4F39-B353-91A63C48651E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{87B98B18-141B-415F-9788-1D8B8EAFF409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87B98B18-141B-415F-9788-1D8B8EAFF409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87B98B18-141B-415F-9788-1D8B8EAFF409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC83B10-2767-4F39-B353-91A63C48651E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC83B10-2767-4F39-B353-91A63C48651E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC83B10-2767-4F39-B353-91A63C48651E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC83B10-2767-4F39-B353-91A63C48651E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +102,7 @@ Global
 		{FB1A9079-4346-4A09-8EF3-DA71F20E31E7} = {1C20338A-6534-43F3-A3D8-BD59883164BC}
 		{D7C2C369-04F4-45F3-B8F4-16D78447C882} = {1E06AD08-135B-482A-B69B-F1D008D95E62}
 		{87B98B18-141B-415F-9788-1D8B8EAFF409} = {1E06AD08-135B-482A-B69B-F1D008D95E62}
+		{BEC83B10-2767-4F39-B353-91A63C48651E} = {78E2CB1F-C89F-4455-9219-E6233E46246E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A5BDBB2-A61F-4422-A391-14C0A4EF2779}

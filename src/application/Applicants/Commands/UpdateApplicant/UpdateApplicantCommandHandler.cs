@@ -1,4 +1,4 @@
-﻿)using ATS.Core.Domain;
+﻿using ATS.Core.Domain;
 using ATS.Persistence.Abstractions.Repositories;
 using AutoMapper;
 using MediatR;
