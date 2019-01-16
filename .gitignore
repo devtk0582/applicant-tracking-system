@@ -24,3 +24,5 @@
 /src/vault/bin/Debug/netstandard2.0
 /src/vault/obj
 /src/vault/ATS.Security.Vault.csproj.user
+/.vs/ApplicantTrackingSystem/DesignTimeBuild
+/src/kafka/ATS.Messaging.Kafka.csproj.user

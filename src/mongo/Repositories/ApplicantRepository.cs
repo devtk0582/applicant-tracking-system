@@ -1,9 +1,8 @@
-﻿using ATS.Persistence.Abstractions.Entities;
+﻿using ATS.Core.Domain;
 using ATS.Persistence.Abstractions.Repositories;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ATS.Persistence.Mongo.Repositories

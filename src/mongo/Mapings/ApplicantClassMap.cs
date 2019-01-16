@@ -1,8 +1,6 @@
-﻿using ATS.Persistence.Abstractions.Entities;
+﻿using ATS.Core.Domain;
 using MongoDB.Bson.Serialization;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ATS.Persistence.Mongo.Mapings
 {

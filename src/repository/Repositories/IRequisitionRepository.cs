@@ -1,7 +1,6 @@
-﻿using ATS.Persistence.Abstractions.Entities;
+﻿using ATS.Core.Domain;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ATS.Persistence.Abstractions.Repositories

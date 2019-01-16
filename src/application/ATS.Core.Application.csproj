@@ -4,4 +4,19 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Applications\" />
+    <Folder Include="Requisitions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="MediatR" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\domain\ATS.Core.Domain.csproj" />
+    <ProjectReference Include="..\repository\ATS.Persistence.Abstractions.csproj" />
+  </ItemGroup>
+
 </Project>

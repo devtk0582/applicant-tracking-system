@@ -1,5 +1,4 @@
 ﻿using ATS.Persistence.Abstractions;
-using ATS.Persistence.Abstractions.Entities;
 using ATS.Persistence.Mongo.Mapings;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
